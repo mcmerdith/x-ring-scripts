@@ -1,0 +1,149 @@
+<link
+  media="screen"
+  type="text/css"
+  rel="stylesheet"
+  href="//cdn3.coreware.com/cache/css/merged-216b26534db2afa534e534af27b384ae8f8b22a88f760d25bb6542afb25bf630.1708053539.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+/>
+<link
+  media="screen"
+  type="text/css"
+  rel="stylesheet"
+  href="//cdn3.coreware.com/cache/css-x_ring_supply-grid_css_v2.1707782696.css"
+/>
+<link
+  media="screen"
+  type="text/css"
+  rel="stylesheet"
+  href="//cdn3.coreware.com/cache/css/merged-f117eca01cd007f1b84bb049aab21f4ccb070cfa475d28e8817bc502ff23b4fb.1708058933.css"
+/>
+<script
+  src="//code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"
+></script>
+<script src="//code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+<script src="//cdn3.coreware.com/cache/js/merged-011c33843345e8a70a53b256687d8f470e72fb9e3c58a53e49533543dd869b0d.1708053540.js"></script>
+<script
+  type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script src="//cdn.jsdelivr.net/npm/hc-offcanvas-nav@5/dist/hc-offcanvas-nav.min.js"></script>
+<script src="//cdn3.coreware.com/cache/js/merged-a1efa9111386229518181b78d7b25866fab5b41e3d3c041f79c09b2acc25fde6.1708061120.js"></script>
+<style>
+  @-webkit-keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  @keyframes shine {
+    100% {
+      left: 125%;
+    }
+  }
+  #_main_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #_main_content > * {
+    width: 100%;
+  }
+  #_main_content #category_banner {
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4em;
+  }
+  #_main_content #category_banner > * {
+    width: 100%;
+  }
+  #_main_content #category_banner img {
+    order: -1;
+  }
+  #results_wrapper div#filter_sidebar {
+    flex: auto;
+  }
+  /*FAQ DROPDOWN STYLE*/
+  .faqs-container {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin-bottom: 80px;
+  }
+  .faqs-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: fit-content;
+  }
+  .faq-singular {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 0 30px 0 20px;
+    flex: auto;
+    width: 100%;
+  }
+  .faq-singular:hover,
+  .faq-singular.active {
+    background: #f2f2f2;
+    background-image: linear-gradient(
+      90deg,
+      #9d1e14 0%,
+      #9d1e14 8px,
+      transparent 8px,
+      transparent 100%
+    );
+  }
+  .faq-singular .faq-question {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 25px 25px 25px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    width: -webkit-fill-available;
+  }
+  .faq-singular .faq-question:before {
+    position: absolute;
+    content: "+";
+    color: #808080;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    font-weight: 700;
+    transition: all 0.5s;
+  }
+  .faq-singular.active .faq-question:before {
+    transform: translateY(-50%) rotate(45deg) scale(1.3);
+  }
+  .faq-answer {
+    display: none;
+    padding-bottom: 20px;
+  }
+  @media (max-width: 625px) {
+    .faqs-container .row {
+      width: 100%;
+      max-width: 100%;
+    }
+    .faq-singular .faq-question {
+      padding: 15px 15px 15px 0px;
+    }
+  }
+  @media (min-width: 626px) {
+    .faqs-container {
+      padding: 0 1rem;
+    }
+  }
+</style>
